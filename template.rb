@@ -1,3 +1,5 @@
+source_paths.unshift(File.dirname(__FILE__))
+
 run "echo '/node_modules' >> .gitignore"
 route "root to: 'angular#index'"
 
