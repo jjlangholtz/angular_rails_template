@@ -4,6 +4,9 @@ Angular Rails Template
 ## What is this?
 A barebones template for generating Rails 5 applications with an Angular frontend.
 
+The generated application has a starting point of a single `app` module and
+controller following this [angular styleguide](https://github.com/johnpapa/angular-styleguide/tree/master/a1).
+
 The template must be run with the `--skip-javascript` flag and allows you to add
 frontend dependencies using `package.json`.
 

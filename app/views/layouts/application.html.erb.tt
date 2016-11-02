@@ -12,9 +12,9 @@
     <title><%= camelized %></title>
   </head>
 
-  <body ng-app='<%= camelized %>' ng-controller='MainCtrl'>
+  <body ng-app='app' ng-controller='AppController as vm'>
     <div>
-      {{test}}
+      {{vm.sayHello()}}
     </div>
   </body>
 </html>
