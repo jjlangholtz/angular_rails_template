@@ -14,7 +14,7 @@ frontend dependencies using `package.json`.
 ## Usage
 Start by cloning the template and changing into the project directory.
 ```
-git clone git@github.com:jjlangholtz/angular_rails_template.git
+git clone https://github.com/jjlangholtz/angular_rails_template.git
 cd angular_rails_template
 ```
 
@@ -24,13 +24,13 @@ Rails application using this template.
 To generate a Rails application, pass the `-m` option to `rails new`, like this:
 
 ```
-rails new ~/code/blog --skip-javascript -m template.rb
+rails new ~/path/to/name_of_app --skip-javascript -m template.rb
 ```
 
 As a smoketest, you should be able to see `Hello, World!` after running the
 server.
 
 ```
-cd ~/code/blog
+cd ~/path/to/name_of_app
 bin/rails server
 ```
