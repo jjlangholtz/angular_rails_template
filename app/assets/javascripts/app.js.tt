@@ -1,0 +1,4 @@
+angular.module('<%= app_const_base.camelize(false) %>', [])
+.controller('MainCtrl', ['$scope', function($scope) {
+  $scope.test = 'Hello, world!';
+}]);
