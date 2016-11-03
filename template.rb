@@ -1,5 +1,7 @@
 source_paths.unshift(File.dirname(__FILE__))
 
+gem "angular-rails-templates"
+
 run "echo '/node_modules' >> .gitignore"
 route "root to: 'angular#index'"
 
@@ -8,5 +10,3 @@ apply 'config/application.rb'
 copy_file 'package.json'
 
 initializer 'npm.rb', "system 'npm install' if Rails.env.development? || Rails.env.test?"
-
-gem "angular-rails-templates", group: "angular"
