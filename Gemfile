@@ -1,0 +1,1 @@
+gem 'angular-rails-templates'
