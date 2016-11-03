@@ -1,5 +1,7 @@
 source_paths.unshift(File.dirname(__FILE__))
 
+gem "angular-rails-templates"
+
 run "echo '/node_modules' >> .gitignore"
 route "root to: 'angular#index'"
 

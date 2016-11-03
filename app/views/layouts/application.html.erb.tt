@@ -17,7 +17,7 @@
       <h1>Angular and Rails</h1>
       <nav>
         <button ui-sref="main.login">Login View</button>
-        <button ui-sref="main.draw">Profile View</button>
+        <button ui-sref="main.profile">Profile View</button>
       </nav>
     </header>
 
